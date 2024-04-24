@@ -10,7 +10,7 @@ spec:
       emptyDir: {}
   containers:
     - name: nodejs-writer
-      image: herwindra/nodejs-writer
+      image: gilanggustina/nodejs-writer
       volumeMounts:
         - mountPath: /app/html
           name: html
